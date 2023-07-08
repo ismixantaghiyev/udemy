@@ -1,0 +1,1117 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    position: relative;
+}
+
+.contain {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    box-shadow: rgba(33, 35, 38, 0.252) 0px 10px 10px -10px;
+}
+
+.left {
+    height: 10vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    height: 10vh;
+    width: 40%;
+}
+
+.imglogo {
+    height: 34px;
+    width: 91px;
+    margin: 25px 0 25px 25px;
+}
+
+.imglogo img {
+    height: 34px;
+    width: 100%;
+}
+
+.lefttext {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 30px 0 25px 25px;
+    cursor: pointer;
+}
+
+.lefttext:hover {
+    color: blueviolet;
+}
+
+.left p {
+    margin: 0;
+}
+
+.inputleft input {
+    width: 75vh;
+    height: 6vh;
+    margin: 15px 0 25px 25px;
+    border-radius: 50px;
+    border: 1px solid black;
+    outline: none;
+    background-color: #F7F9FA;
+    font-size: 17px;
+    padding-left: 50px;
+}
+
+.inputleft i {
+    position: relative;
+    top: -60px;
+    right: -45px;
+    font-size: 20px;
+    color: #4b4545;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+}
+
+.righttext2 {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.righttext1 p {
+    padding-top: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.righttext2 p {
+    padding-top: 15px;
+}
+
+.icon {
+    margin-left: 15px;
+}
+
+.icon i {
+    font-size: 20px;
+    padding-top: 30px
+}
+
+
+.btn1 {
+    cursor: pointer;
+    border: 1px solid black;
+    height: 40px;
+    margin-top: 18px;
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn2 {
+    cursor: pointer;
+    border: 1px solid black;
+    height: 40px;
+    margin-top: 18px;
+    margin-left: 10px;
+    background-color: #1C1D1F;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn3 {
+    cursor: pointer;
+    border: 1px solid black;
+    height: 40px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.btn1 p {
+    margin: 0;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.btn2 p {
+    margin: 0;
+    padding: 10px;
+}
+
+.btn3 i {
+    padding: 11px;
+}
+
+.btn1:hover {
+    background-color: #cccccc2c;
+}
+
+.btn2:hover {
+    background-color: black;
+}
+
+.btn3:hover {
+    background-color: #cccccc2c;
+}
+
+.btn1 p {
+    padding-top: 7px;
+}
+
+.btn2 p {
+    padding-top: 7px;
+}
+
+.btn3 p {
+    padding-top: 7px;
+}
+
+.righttext1 {
+    cursor: pointer;
+}
+
+.righttext1:hover {
+    color: blueviolet;
+}
+
+.righttext2:hover {
+    color: blueviolet;
+}
+
+.icon i:hover {
+    color: blueviolet;
+}
+
+.photoAndText {
+    width: 1360px;
+    height: 400px;
+    margin: auto;
+}
+
+.text2sect {
+    top: 140px;
+    left: 165px;
+    height: 190px;
+    width: 27rem;
+    position: absolute;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+}
+
+.photoAndText img {
+    width: 100%;
+}
+
+.basliq {
+    padding: 20px;
+}
+
+.basliq h1 {
+    width: 80%;
+    font-size: 35px;
+    margin: 0;
+}
+
+.basliq p {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+}
+
+.container {
+    width: 87%;
+    /* height: 500vh; */
+    margin: auto;
+}
+
+.orta {
+    margin-top: 70px;
+}
+
+.top h1 {
+    font-size: 2.3rem;
+    margin: 0;
+}
+
+.top p {
+    font-size: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.kicikNav a {
+    text-decoration: none;
+    color: #6A6F73;
+    padding-left: 25px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.kicikNav a:nth-child(1) {
+    margin-left: 0;
+    padding-left: 0;
+    color: black;
+}
+
+.kicikNav a:hover {
+    color: black;
+    /* transition: 0.7s; */
+}
+
+.bottom {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #6a6f737f;
+    height: 550px;
+}
+
+.textBottom h1 {
+    padding: 30px 0 10px 30px;
+    margin: 0px;
+}
+
+.textBottom p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding: 0px 0 1px 30px;
+    margin: 0;
+    width: 70%;
+}
+
+.btnBottom {
+    padding: 20px 0 1px 30px;
+
+}
+
+.btnBottom button {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btnBottom button:hover {
+    background-color: #cccccc2c;
+}
+
+
+.boxContent {
+    padding: 20px 0 1px 30px;
+}
+
+.boxContent img {
+    width: 100%;
+}
+
+
+
+
+
+.boxContent {
+    width: 230px;
+    height: auto;
+}
+
+.boxContent h3 {
+    margin: 0;
+}
+
+.boxContent p {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 13px;
+    color: #5c5b5b;
+}
+
+.iconAndSpan {
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.iconAndSpan i {
+    color: #E59819;
+}
+
+.iconAndSpan span:nth-child(1) {
+    color: #B4690E;
+    font-weight: 700;
+}
+
+.boxContent h4 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.boxContent button {
+    margin-top: 10px;
+    background-color: #ECEB98;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px;
+    color: #3D3C0A;
+}
+
+.boxContent {
+    cursor: pointer;
+}
+
+.boxFlex {
+    display: flex;
+}
+
+.boxFlex button{
+    cursor: pointer;
+}
+
+.boxsTekrar {
+    margin-top: 80px;
+}
+
+.boxT h1 {
+    margin: 0;
+}
+
+.boxT .boxContent:nth-child(1) {
+    padding-left: 0;
+}
+
+.boxT .boxContent {
+    padding-left: 40px;
+}
+
+.boxT .boxContent {
+    width: 270px;
+}
+
+.red {
+    background-color: red;
+}
+
+.boxT .boxContent:nth-child(2) button {
+    background-color: #FCAEA0;
+}
+
+
+.imageBox {
+    margin-top: 100px;
+    height: auto;
+}
+
+.imageBox h1 {
+    margin: 0;
+}
+
+.box99 {
+    margin: 0;
+    width: 25%;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 40px;
+
+}
+
+.boxContent1 {
+    padding-left: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+}
+
+.imgBox99 {
+    width: 100%;
+    height: 270px;
+}
+
+.box99 h3 {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.imgBox99 img {
+    width: 100%;
+    height: 100%;
+}
+
+.box99:nth-child(1) {
+    margin-left: 0px;
+}
+
+.kataqori {
+    width: 100%;
+    height: 60vh;
+    background-color: #F7F9FA;
+    margin-top: 70px;
+}
+
+.kataqoriContent {
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: space-between; */
+    height: auto;
+    /* padding-top: 30px; */
+}
+
+.kataqoriContent p {
+    margin: 0;
+}
+
+.kataqoriContent ul li {
+    margin-top: 30px;
+}
+
+.kataqoriContent ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.kataqoriContent ul li:nth-child(1) {
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+
+.kataqoriContent ul li {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.kataqoriContent button {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.kataqoriContent ul li {
+    color: #5624D0;
+}
+
+.container h1 {
+    margin: 0;
+    /* padding-top: 50px; */
+}
+
+.kataqori .container h1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.kataqoriContent button:hover {
+    background-color: #cccccc2c;
+}
+
+.margin {
+    margin-left: 180px;
+}
+
+.kataqoriContent ul li a:visited {
+    color: #5B24D0;
+}
+
+.kataqoriContent ul li a:hover {
+    color: blue;
+}
+
+.kataqoriContent ul li a:active {
+    color: blue;
+}
+
+.smallsec {
+    height: 35vh;
+}
+
+.sirketler {
+    width: 100%;
+    height: auto;
+}
+
+.texth1p {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.logoAll {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texth1p p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.boxImgText {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    height: auto;
+}
+
+.textLeft {
+    width: 55%;
+    height: 62vh;
+}
+
+.imgRight {
+    width: 45%;
+    height: 62vh;
+}
+
+.imgRight img {
+    width: 100%;
+    height: 100%;
+}
+
+.textLeftImg {
+    height: 33px;
+    width: 192px;
+}
+
+
+
+.textLeftImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.textLeftpadding h1 {
+    font-size: 33px;
+    margin: 0;
+    padding-top: 10px;
+    width: 70%;
+}
+
+.textLeftpadding ul {
+    padding-left: 20px;
+    margin: 0;
+    width: 70%;
+    /* list-style-type: none; */
+}
+
+.textLeftpadding ul li {
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.btn999 {
+    padding-top: 20px;
+}
+
+.btn999 button {
+    padding: 15px;
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+.btn999 button:nth-child(1) {
+    background-color: black;
+    color: white;
+}
+
+.btn999 button:nth-child(2) {
+    background-color: transparent;
+}
+
+.textLeftpadding ul li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.endBoxs {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    height: auto;
+}
+
+.ends {
+    margin-top: 80px;
+}
+
+.sol {
+    width: 55%;
+    height: 62vh;
+}
+
+.sag {
+    width: 45%;
+    height: 62vh;
+    padding-left: 40px;
+}
+
+.sol img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.solPaddin {
+    padding: 30px;
+}
+
+.solPaddin h1 {
+    font-size: 35px;
+}
+
+.solPaddin p {
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.solPaddin button {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    background-color: #1C1D1F;
+    height: 40vh;
+}
+
+.footerlis {
+    width: 96%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlis ul {
+    list-style-type: none;
+    padding-left: 90px;
+}
+
+.footerlis ul:nth-child(1) {
+    padding-left: 50px;
+}
+
+.footerlis ul li {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.footerlis ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+}
+
+.footerlis ul li a:hover {
+    text-decoration: underline;
+}
+
+.endButtonnn button {
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: 20px;
+
+}
+
+.endimg {
+    margin-left: 50px;
+    width: 91px;
+    height: 35px;
+}
+
+.endimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.endImgAll {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ismixan small {
+    margin-right: 70px;
+    color: white;
+}
+
+.endButtonnn i {
+    padding-right: 5px;
+}
+
+.imgBox99 {
+    overflow: hidden;
+}
+
+.imgBox99 img {
+    height: 100%;
+    width: 100%;
+    transition: scale 400ms;
+}
+
+.imgBox99:hover img {
+    scale: 120%;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .lefttext p {
+        display: none;
+    }
+
+    .righttext1 p {
+        display: none;
+    }
+
+    .righttext2 {
+        display: none;
+    }
+
+    .btn1 {
+        display: none;
+    }
+
+    .btn2 {
+        display: none;
+    }
+
+    .btn3 {
+        display: none;
+    }
+
+    .inputleft input {
+        display: none;
+        /*bunu acaciyiq*/
+    }
+
+    .imglogo img {
+        margin-left: 600px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .imglogo {
+        width: 190px;
+        height: 70px;
+    }
+
+    .icon i {
+        padding-left: 1030px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .inputleft i {
+        margin-left: 930px;
+        margin-top: 110px;
+        font-size: 30px;
+    }
+
+    .photoAndText img {
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 105%;
+        height: 500px;
+    }
+
+
+    .top h1 {
+        padding-top: 60px;
+        font-size: 70px;
+        width: 100%;
+    }
+
+    .top {
+        width: 800px;
+    }
+
+    .top p {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .kicikNav {
+        display: none;
+    }
+
+    .bottom {
+        width: 1390px;
+        height: 350px;
+    }
+
+    .textBottom h1 {
+        font-size: 45px;
+    }
+
+    .textBottom p {
+        font-size: 27px;
+    }
+
+    .btnBottom button {
+        width: 400px;
+        height: 70px;
+        font-size: 25px;
+    }
+
+    .boxFlex .boxContent {
+        display: none;
+    }
+
+    .boxT .boxFlex .boxContent {
+        display: block;
+    }
+
+    .boxT h1 {
+        /* text-align: center; */
+        font-size: 50px;
+        width: 1000px;
+        margin-left: 250px;
+    }
+
+    .boxT .boxFlex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxT .boxFlex .boxContent {
+        width: 100%;
+        padding: 0;
+        margin-top: 70px;
+    }
+
+    .boxsTekrar {
+        width: 1500px;
+        margin-left: -30px;
+    }
+
+    .boxContent h3 {
+        font-size: 40px;
+    }
+
+    .boxContent p {
+        font-size: 30px;
+    }
+
+    .iconAndSpan span {
+        font-size: 40px;
+    }
+
+    .iconAndSpan i {
+        font-size: 30px;
+    }
+
+    .boxContent h4 {
+        font-size: 35px;
+    }
+
+    .boxContent button {
+        font-size: 40px;
+    }
+
+    .imageBox h1 {
+        font-size: 70px;
+        width: 1000px;
+        margin-left: 380px;
+        margin-bottom: 30px;
+    }
+
+    .boxContent1 {
+        width: 1330px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box99 {
+        width: 100%;
+        height: 1000px;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    .imgBox99 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box99 h3 {
+        font-size: 50px;
+    }
+
+    .kataqori h1 {
+        display: none;
+    }
+
+    .kataqori {
+        margin-left: 40px;
+        width: 345%;
+        height: 550;
+    }
+
+    .kataqoriContent .margin:nth-child(2) {
+        display: none;
+    }
+
+    .kataqoriContent .margin:nth-child(3) {
+        display: none !important;
+    }
+
+    .kataqoriContent .mobil {
+        margin-left: 180px;
+    }
+
+    .kataqoriContent .mobil li,
+    p {
+        font-size: 35px;
+    }
+
+    .kataqoriContent .mobil li:nth-child(1) {
+        margin: 0;
+    }
+
+    .mobil button {
+        padding: 15px;
+        font-size: 25px;
+        margin-top: 30px;
+        /* width:600px; */
+    }
+
+    .kataqoriContent .mobil li:nth-child(1) {
+        font-size: 30px;
+    }
+
+    .basliq p {
+        font-size: 22px;
+    }
+
+    .basliq h1 {
+        font-size: 30px;
+        width: 500px;
+    }
+
+    .texth1p h1 {
+        font-size: 35px;
+        width: 600px;
+        margin-left: 400px;
+    }
+
+    .texth1p p {
+        width: 600px;
+        font-size: 25px;
+        margin-left: 400px;
+    }
+
+    .logoAll div:nth-child(1) {
+        display: none;
+    }
+
+    .logoAll div:nth-child(2) {
+        display: none;
+    }
+
+    .logoAll div:nth-child(3) {
+        display: none;
+    }
+
+    .logoAll div img {
+        width: 250px;
+        margin-bottom: 50px;
+        margin-left: 170px;
+    }
+
+    .logoAll {
+        margin-bottom: -500px;
+    }
+
+    .boxImgText {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textLeft {
+        width: 1000px;
+    }
+
+    .textLeftpadding h1 {
+        font-size: 50px;
+        width: 900px;
+    }
+
+    .textLeftpadding {
+        margin-left: 350px;
+    }
+
+    .textLeftImg {
+        width: 400px;
+        height: 100px;
+    }
+
+    .textLeftImg img {
+        width: 100%;
+    }
+
+    .textLeftpadding ul li {
+        font-size: 30px;
+        width: 800px;
+    }
+
+    .btn999 button {
+        padding: 15px;
+        font-size: 25px;
+        margin-right: 15px;
+    }
+
+    .btn999 {
+        width: 800px;
+    }
+
+    .imgRight {
+        margin-left: 350px;
+        margin-top: 50px;
+        width: 700px;
+    }
+
+    .imgRight img {
+        width: 100%;
+    }
+
+    .ends {
+        display: none;
+    }
+
+    .contain {
+        box-shadow: none;
+    }
+
+    .footer {
+        width: 1450px;
+    }
+}
+
+
+
+
+.busket{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+}
